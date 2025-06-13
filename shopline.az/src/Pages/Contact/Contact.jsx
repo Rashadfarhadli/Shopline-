@@ -11,7 +11,7 @@ const Contact = () => {
       < ContactHero />
       < ContactSectionForm />
       < FindUsSection />
-      < Footer />
+      
     </div>
   )
 }

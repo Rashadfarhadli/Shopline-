@@ -14,7 +14,7 @@ export default function About() {
      < AboutOneSection />
      < AboutTeamSection />
      < StatsSection />
-      < Footer />
+     
 
       
 

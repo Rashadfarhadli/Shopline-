@@ -2,53 +2,63 @@
   "products": [
     {
       "id": 1,
-      "ProductName": "iPhone 14 Pro",
-      "category": "Smartphone",
-      "Description": "Apple iPhone 14 Pro with A16 Bionic chip and 48MP camera.",
-      "Price": 1299,
-      "ImageUrl": "https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-iPhone-14-Plus-2up-starlight-220907-geo_inline.jpg.large.jpg",
+      "ProductName": "Coca Cola Classic",
+      "category": "carbonated drink",
+      "Description": "Refreshing cola drink with the classic taste you love",
+      "Price": 2.99,
+      "ImageUrl": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.8,
-      "stock": 25
+      "stock": 50
     },
     {
       "id": 2,
-      "ProductName": "Samsung Galaxy S23 Ultra",
-      "category": "Smartphone",
-      "Description": "Samsung flagship phone with 200MP camera and Snapdragon 8 Gen 2.",
-      "Price": 1199,
-      "ImageUrl": "https://www.clove-technology.com/cdn/shop/files/4d5e81c2-f679-4f1c-b36f-af610792403b.jpg?v=1743077254",
+      "ProductName": "Lay's Classic Chips",
+      "category": "fried potatoes",
+      "Description": "Crispy potato chips with the perfect amount of salt",
+      "Price": 2.97,
+      "ImageUrl": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.7,
       "stock": 30
     },
     {
       "id": 3,
-      "ProductName": "Sony WH-1000XM5",
-      "category": "Headphones",
-      "Description": "Industry-leading noise canceling headphones with great sound quality.",
-      "Price": 399,
-      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SYDmpUAZ3UxLgEJ1thNQZP3w3mqKIwVI9A&s",
+      "ProductName": "Fresh Milk",
+      "category": "Milk",
+      "Description": "Pure and fresh whole milk, perfect for your daily needs",
+      "Price": 4.99,
+      "ImageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.9,
-      "stock": 50
+      "stock": 25
     },
     {
       "id": 4,
-      "ProductName": "Dell XPS 13",
-      "category": "Laptop",
-      "Description": "Compact and powerful ultrabook with Intel Core i7 processor.",
-      "Price": 999,
-      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVV1ynpW1J_VqniwNd5go1aiV7VtwwvOACEA&s",
+      "ProductName": "Head & Shoulders Shampoo",
+      "category": "Head & Shoulders",
+      "Description": "Anti-dandruff shampoo for healthy, clean hair",
+      "Price":7.19,
+      "ImageUrl": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.6,
       "stock": 15
     },
     {
       "id": 5,
-      "ProductName": "Apple MacBook Air M2",
-      "category": "Laptop",
-      "Description": "Lightweight laptop with Apple's M2 chip for high performance.",
-      "Price": 1199,
-      "ImageUrl": "https://cdn0.it4profit.com/s3sizesize/el:t/rt:fill/plain/s3://cms/product/f5/9f/f59fecff9929982ce627aa06ee4cd124/250530140020429789.webp",
+      "ProductName": "Dove Beauty Bar",
+      "category": "Dove",
+      "Description": "Moisturizing beauty bar soap for soft, smooth skin",
+      "Price": 4.94,
+      "ImageUrl": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.9,
-      "stock": 20
+      "stock": 35
+    },
+       {
+      "id": 5,
+      "ProductName": "Haribo Gummy Bears",
+      "category": "Haribo",
+      "Description": "Delicious fruity gummy bears in assorted flavors",
+      "Price": 2.79,
+      "ImageUrl": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "Rating": 4.9,
+      "stock": 60
     }
   ]
 }
