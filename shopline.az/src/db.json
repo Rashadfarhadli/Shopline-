@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "ProductName": "iPhone 14 Pro",
+      "category": "Smartphone",
+      "Description": "Apple iPhone 14 Pro with A16 Bionic chip and 48MP camera.",
+      "Price": 1299,
+      "ImageUrl": "https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-iPhone-14-Plus-2up-starlight-220907-geo_inline.jpg.large.jpg",
+      "Rating": 4.8,
+      "stock": 25
+    },
+    {
+      "id": 2,
+      "ProductName": "Samsung Galaxy S23 Ultra",
+      "category": "Smartphone",
+      "Description": "Samsung flagship phone with 200MP camera and Snapdragon 8 Gen 2.",
+      "Price": 1199,
+      "ImageUrl": "https://www.clove-technology.com/cdn/shop/files/4d5e81c2-f679-4f1c-b36f-af610792403b.jpg?v=1743077254",
+      "Rating": 4.7,
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "ProductName": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "Description": "Industry-leading noise canceling headphones with great sound quality.",
+      "Price": 399,
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SYDmpUAZ3UxLgEJ1thNQZP3w3mqKIwVI9A&s",
+      "Rating": 4.9,
+      "stock": 50
+    },
+    {
+      "id": 4,
+      "ProductName": "Dell XPS 13",
+      "category": "Laptop",
+      "Description": "Compact and powerful ultrabook with Intel Core i7 processor.",
+      "Price": 999,
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVV1ynpW1J_VqniwNd5go1aiV7VtwwvOACEA&s",
+      "Rating": 4.6,
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "ProductName": "Apple MacBook Air M2",
+      "category": "Laptop",
+      "Description": "Lightweight laptop with Apple's M2 chip for high performance.",
+      "Price": 1199,
+      "ImageUrl": "https://cdn0.it4profit.com/s3sizesize/el:t/rt:fill/plain/s3://cms/product/f5/9f/f59fecff9929982ce627aa06ee4cd124/250530140020429789.webp",
+      "Rating": 4.9,
+      "stock": 20
+    }
+  ]
+}

@@ -10,8 +10,8 @@ import ContactSection from "./components/ContactSection";
 
 
 import About from "./Pages/About/About.jsx";
-import Contact from "./Pages/Contact.jsx";
-import Products from "./Pages/Products.jsx";
+import Contact from "./Pages/./Contact/Contact.jsx";
+import Products from "./Pages/Products/Products.jsx";
 import Admin from "./Pages/Admin.jsx";
 import Login from "./Pages/Login.jsx";
 import Register from "./Pages/Register.jsx";
