@@ -14,9 +14,10 @@ import About from "./Pages/About/About.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
 import Products from "./Pages/Products/Products.jsx";
 import Admin from "./Pages/Admin.jsx";
-import Login from "./Pages/Login.jsx";
-import Register from "./Pages/Register.jsx";
+import Login from "./Pages/Login/Login.jsx";
+import Register from "./Pages/Register/Register.jsx";
 import ProductDetail from "./Pages/Products/ProductDetail.jsx"; 
+import Profile from "./Pages/Profile/Profile.jsx";
 
 function App() {
   return (
@@ -41,10 +42,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/product/:id" element={<ProductDetail />} /> {/* Yeni detal səhifəsi */}
+        <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+         <Route path="/profile" element={<Profile />} />
       </Routes>
       <Footer />
     </Router>

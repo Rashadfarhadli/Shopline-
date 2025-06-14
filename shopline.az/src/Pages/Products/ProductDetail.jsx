@@ -17,8 +17,15 @@ function ProductDetail() {
         return res.json();
       })
       .then((data) => {
+       
+        console.log("Məhsul məlumatı:", data);
+
         setProduct(data);
         setCount(1);
+
+      
+        const stockValue = data.stock ?? data.Stock ?? 0;
+        localStorage.setItem("productStock", String(stockValue));
       })
       .catch((err) => setError(err.message));
   }, [id]);
@@ -39,7 +46,8 @@ function ProductDetail() {
     );
   }
 
-  const maxCount = product.stock;
+
+  const maxCount = product.stock ?? product.Stock ?? 0;
   const minCount = 1;
   const totalPrice = (product.Price * count).toFixed(2);
 
@@ -47,6 +55,8 @@ function ProductDetail() {
     if (count < maxCount) {
       setCount((prev) => prev + 1);
       toast.dismiss();
+    } else {
+      toast.error("Maksimum stok sayına çatdınız");
     }
   };
 
@@ -60,7 +70,6 @@ function ProductDetail() {
   const addToBasket = () => {
     toast.dismiss();
 
-  
     const userStr = localStorage.getItem("user");
     if (!userStr) {
       toast.error("Zəhmət olmasa səbətə əlavə etmək üçün hesabınıza daxil olun.");
@@ -76,6 +85,7 @@ function ProductDetail() {
     const basket = basketStr ? JSON.parse(basketStr) : [];
 
     const productIndex = basket.findIndex((item) => item.id === product.id);
+
     if (productIndex >= 0) {
       const newCount = basket[productIndex].count + count;
       if (newCount > maxCount) {
@@ -83,6 +93,7 @@ function ProductDetail() {
         return;
       }
       basket[productIndex].count = newCount;
+      basket[productIndex].stock = maxCount; 
     } else {
       basket.push({
         id: product.id,
@@ -90,11 +101,12 @@ function ProductDetail() {
         price: product.Price,
         count: count,
         imageUrl: product.ImageUrl,
+        stock: maxCount,
       });
     }
 
     localStorage.setItem("basket", JSON.stringify(basket));
-    toast.success(`${count} ədəd "${product.ProductName}" səbətə əlavə edildi.`);
+    toast.success(`${count} ədəd "${product.ProductName}" səbətə əlavə edildi. (Stok: ${maxCount} ədəd)`);
   };
 
   return (
@@ -110,6 +122,7 @@ function ProductDetail() {
             <h1 className="text-3xl font-bold text-indigo-800">{product.ProductName}</h1>
             <p className="text-gray-700">{product.Description}</p>
             <p className="text-lg text-green-600 font-bold">${product.Price}</p>
+            <p className="text-gray-700">Stock: {maxCount}</p>
 
             <div className="flex items-center gap-4 mt-4">
               <button
@@ -164,8 +177,8 @@ function ProductDetail() {
           <h2 className="text-2xl font-semibold mb-4 text-indigo-700">Product Information</h2>
           <ul className="space-y-2 text-gray-800">
             <li><strong>Name:</strong> {product.ProductName}</li>
-            <li><strong>Stock:</strong> {product.stock} ədəd</li>
-            <li><strong>Category:</strong> {product.Category || "N/A"}</li>
+            <li><strong>Stock:</strong> {maxCount} ədəd</li>
+            <li><strong>Category:</strong> {product.composition || "N/A"}</li>
             <li><strong>Rating:</strong> {product.Rating} / 5</li>
           </ul>
         </div>
