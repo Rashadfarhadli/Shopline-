@@ -59,6 +59,126 @@
       "ImageUrl": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.9,
       "stock": 60
+    },
+    {
+      "id": "7",
+      "ProductName": "Nutella Hazelnut Spread",
+      "composition": "hazelnuts, cocoa",
+      "Description": "Delicious chocolate hazelnut spread perfect for toast and desserts",
+      "Price": 5.49,
+      "ImageUrl": "https://i5.walmartimages.com/seo/Nutella-Hazelnut-Spread-with-Cocoa-for-Breakfast-26-5-oz-Jar_e79464bd-3e47-409f-8bf4-1f529babd340.0eed1c12497bf86b17add38ecf38a770.jpeg",
+      "Rating": 4.8,
+      "stock": 40
+    },
+    {
+      "id": "8",
+      "ProductName": "Nescafe Classic Coffee",
+      "composition": "instant coffee",
+      "Description": "Rich and aromatic instant coffee for your daily energy boost",
+      "Price": 3.99,
+      "ImageUrl": "https://bazarstore.az/cdn/shop/files/f77c3884eb7e7d2aab1177fc123e5821.jpg?v=1730449535",
+      "Rating": 4.6,
+      "stock": 55
+    },
+    {
+      "id": "9",
+      "ProductName": "Kinder Chocolate",
+      "composition": "milk chocolate",
+      "Description": "Smooth milk chocolate bars with a creamy milk filling",
+      "Price": 3.45,
+      "ImageUrl": "https://m.media-amazon.com/images/I/51db72CqxkL.jpg",
+      "Rating": 4.9,
+      "stock": 45
+    },
+    {
+      "id": "10",
+      "ProductName": "Snickers Bar",
+      "composition": "chocolate, caramel, peanuts",
+      "Description": "Chocolate bar packed with peanuts, caramel, and nougat",
+      "Price": 1.99,
+      "ImageUrl": "https://www.stbarthswine.com/cdn/shop/products/SnickersChocolateCaramelPeanuts.jpg?v=1631203303",
+      "Rating": 4.7,
+      "stock": 70
+    },
+    {
+      "id": "11",
+      "ProductName": "Orange Juice",
+      "composition": "100% orange juice",
+      "Description": "Freshly squeezed orange juice, rich in Vitamin C",
+      "Price": 3.89,
+      "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJWBxam3CQwwocWlkahzr9Vvyg2LtFcDW-Fw&s",
+      "Rating": 4.8,
+      "stock": 28
+    },
+    {
+      "id": "12",
+      "ProductName": "Pringles Original",
+      "composition": "potato crisps",
+      "Description": "Crispy and salty potato chips in iconic tube packaging",
+      "Price": 2.79,
+      "ImageUrl": "https://strgimgr.umico.az/sized/840/540149-2740c9404c393dded4d7213b9ba7aa89.jpg",
+      "Rating": 4.6,
+      "stock": 38
+    },
+    {
+      "id": "13",
+      "ProductName": "Bananas",
+      "composition": "fresh fruit",
+      "Description": "Fresh and ripe bananas packed with potassium",
+      "Price": 1.5,
+      "ImageUrl": "https://www.orchardfood.co.za/cdn/shop/files/Bananas-2.png?v=1697742987&width=1920",
+      "Rating": 4.9,
+      "stock": 80
+    },
+    {
+      "id": "14",
+      "ProductName": "Lipton Ice Tea",
+      "composition": "black tea, lemon flavor",
+      "Description": "Refreshing iced tea with a splash of lemon flavor",
+      "Price": 1.75,
+      "ImageUrl": "https://neptun.az/image/cache/catalog/liptonlimon1l-1000x1000.jpeg?v=9",
+      "Rating": 4.5,
+      "stock": 42
+    },
+    {
+      "id": "15",
+      "ProductName": "Orbit Chewing Gum",
+      "composition": "sugar-free gum",
+      "Description": "Sugar-free chewing gum for fresh breath",
+      "Price": 0.99,
+      "ImageUrl": "https://confitelia.com/2043-thickbox_default/chewing-gum-orbit-dagree-peppermint-sugarfree.jpg",
+      "Rating": 4.4,
+      "stock": 120
+    },
+    {
+      "id": "16",
+      "ProductName": "Apple iPhone Charger",
+      "composition": "Apple certified charger",
+      "Description": "Fast charging USB-C to Lightning cable for iPhone devices",
+      "Price": 19.99,
+      "ImageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/HRX12?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=VU0rbnRKb2g2Q0dsSCtkV3p6Z1lUd2tuVHYzMERCZURia3c5SzJFOTlPaGhhTUhVUWNGZzIrR0JiV3ZUTnRrN2FUdVg0TWtxcXRxTE8rSHk1S3RQVUE",
+      "Rating": 4.7,
+      "stock": 22
+    },
+    {
+      "id": "17",
+      "ProductName": "Dettol Hand Sanitizer",
+      "composition": "alcohol-based sanitizer",
+      "Description": "Kills 99.9% of germs and bacteria without water",
+      "Price": 2.49,
+      "ImageUrl": "https://m.media-amazon.com/images/I/51-z05TsJSL.jpg",
+      "Rating": 4.8,
+      "stock": 65
+    },
+    {
+      "id": "18",
+      "ProductName": "Nivea Body Lotion",
+      "composition": "moisturizing cream",
+      "Description": "Deep moisturizing lotion for smooth and soft skin",
+      "Price": 6.75,
+      "ImageUrl": "https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//n/i/nivea-aloe-vera-body-lotion-625ml.jpg",
+      "Rating": 4.9,
+      "stock": 33
     }
   ],
   "users": [
@@ -156,6 +276,137 @@
       ],
       "totalPrice": 4.99,
       "date": "2025-06-14T18:14:34.137Z"
+    },
+    {
+      "id": "cada",
+      "userId": "84e1",
+      "items": [
+        {
+          "productId": "1",
+          "name": "Coca Cola Classic",
+          "quantity": 13,
+          "price": 2.99,
+          "total": 38.870000000000005
+        },
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 30,
+          "price": 2.97,
+          "total": 89.10000000000001
+        },
+        {
+          "productId": "15",
+          "name": "Orbit Chewing Gum",
+          "quantity": 36,
+          "price": 0.99,
+          "total": 35.64
+        }
+      ],
+      "totalPrice": 163.61,
+      "date": "2025-06-14T20:37:07.847Z"
+    },
+    {
+      "id": "d7fd",
+      "userId": "84e1",
+      "fullName": "Rashad",
+      "phone": "Yoxdur",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 1,
+          "price": 2.97,
+          "total": 2.97
+        },
+        {
+          "productId": "1",
+          "name": "Coca Cola Classic",
+          "quantity": 1,
+          "price": 2.99,
+          "total": 2.99
+        },
+        {
+          "productId": "4",
+          "name": "Head & Shoulders Shampoo",
+          "quantity": 1,
+          "price": 7.19,
+          "total": 7.19
+        },
+        {
+          "productId": "8",
+          "name": "Nescafe Classic Coffee",
+          "quantity": 1,
+          "price": 3.99,
+          "total": 3.99
+        }
+      ],
+      "totalPrice": 17.14,
+      "date": "2025-06-14T20:41:46.201Z"
+    },
+    {
+      "id": "e8b1",
+      "userId": "84e1",
+      "fullName": "Rashad",
+      "phone": "Aytacajoi@gmail.com",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 1,
+          "price": 2.97,
+          "total": 2.97
+        },
+        {
+          "productId": "1",
+          "name": "Coca Cola Classic",
+          "quantity": 1,
+          "price": 2.99,
+          "total": 2.99
+        }
+      ],
+      "totalPrice": 5.960000000000001,
+      "date": "2025-06-14T20:44:59.120Z"
+    },
+    {
+      "id": "e0c6",
+      "userId": "84e1",
+      "fullName": "Rashad",
+      "phone": "Aytacajoi@gmail.com",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Fresh Milk",
+          "quantity": 13,
+          "price": 4.99,
+          "total": 64.87
+        }
+      ],
+      "totalPrice": 64.87,
+      "date": "2025-06-14T20:59:58.240Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "fullName": "Rashad Farhadli",
+      "email": "rashad@example.com",
+      "subject": "Sualım var",
+      "message": "Salam, məhsul haqqında məlumat almaq istəyirəm."
+    },
+    {
+      "id": "2",
+      "fullName": "Aysel Karimova",
+      "email": "aysel@example.com",
+      "subject": "Texniki problem",
+      "message": "Saytda səbət işləmədiyi üçün sifarişi tamamlaya bilmirəm."
+    },
+    {
+      "id": "5ca1",
+      "fullName": "Rashad",
+      "email": "farhadlirashad@gmail.com",
+      "subject": "Tehlukesizlik",
+      "message": "menim melumatlarimi kimse goturmur?"
     }
   ]
 }

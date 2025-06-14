@@ -29,16 +29,37 @@ export default function ContactSectionForm() {
               message: "",
             }}
             validationSchema={validationSchema}
-            onSubmit={(values, { resetForm }) => {
+            onSubmit={async (values, { resetForm }) => {
               const user = localStorage.getItem("user");
               if (!user) {
                 toast.error("Mesaj göndərmək üçün əvvəlcə sistemə daxil olun!");
                 return;
               }
 
-             
-              alert("Form göndərildi:\n" + JSON.stringify(values, null, 2));
-              resetForm();
+              try {
+                const response = await fetch("http://localhost:5005/contacts", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify(values),
+                });
+
+                if (!response.ok) {
+                  throw new Error("Mesaj göndərilmədi");
+                }
+
+                toast.success("Mesajınız uğurla göndərildi", {
+                  autoClose: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                });
+
+                resetForm();
+              } catch (error) {
+                toast.error(error.message || "Xəta baş verdi");
+              }
             }}
           >
             {({ errors, touched }) => (
