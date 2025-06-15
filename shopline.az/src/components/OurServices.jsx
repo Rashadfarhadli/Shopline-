@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   FaShoppingCart,
   FaShippingFast,
@@ -15,7 +15,7 @@ const services = [
   {
     icon: <FaShippingFast className="text-indigo-600 text-5xl mb-3" />,
     title: "Quick Delivery",
-    description: "FFast and reliable delivery to your location",
+    description: "Fast and reliable delivery to your location",
   },
   {
     icon: <FaCheckCircle className="text-indigo-600 text-5xl mb-3" />,
@@ -30,6 +30,46 @@ const services = [
 ];
 
 export default function OurServices() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+
+    try {
+      const storedUser = localStorage.getItem("user");
+      if (!storedUser) {
+        alert("İstifadəçi məlumatı tapılmadı. Zəhmət olmasa daxil olun.");
+        return;
+      }
+      const parsedUser = JSON.parse(storedUser);
+      if (!parsedUser || Object.keys(parsedUser).length === 0) {
+        alert("İstifadəçi məlumatı düzgün deyil. Zəhmət olmasa yenidən daxil olun.");
+        return;
+      }
+      setUser(parsedUser);
+    } catch (error) {
+      alert("İstifadəçi məlumatı yüklənərkən xəta baş verdi.");
+    }
+
+
+    var Tawk_API = window.Tawk_API || {};
+    var Tawk_LoadStart = new Date();
+    var script = document.createElement("script");
+    script.async = true;
+    script.src = "https://embed.tawk.to/684f356639b70919105f02d0/1itqmh6pc";
+    script.charset = "UTF-8";
+    script.setAttribute("crossorigin", "*");
+    document.head.appendChild(script);
+
+   
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  if (!user) {
+    return null;
+  }
+
   return (
     <section className="py-16 bg-white px-4">
       <div className="max-w-5xl mx-auto text-center mb-12">
@@ -38,6 +78,9 @@ export default function OurServices() {
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto">
           Comprehensive solutions for all your shopping needs.
+        </p>
+        <p className="mt-6 text-green-600 font-semibold">
+          Xoş gəlmisiniz, {user.fullName || "İstifadəçi"}!
         </p>
       </div>
 
