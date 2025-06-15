@@ -183,180 +183,37 @@
   ],
   "users": [
     {
-      "id": "1",
-      "Name": "Rashad Farhadli",
-      "Gmail": "rashad@example.com",
-      "Phone": "+994501112233",
-      "Password": "12345678",
-      "ProfileImage": "https://randomuser.me/api/portraits/men/1.jpg",
-      "name": "gewtxutygtyegfx",
-      "email": "ElsadFerhadov@gmail.com",
-      "password": "Rashadfarhadli21",
-      "undefined": "Rashad Farhadl"
-    },
-    {
-      "id": "2",
-      "Name": "Aysel Karimova",
-      "Gmail": "aysel@example.com",
-      "Phone": "+994551234567",
-      "Password": "abcdefg1",
-      "ProfileImage": "https://randomuser.me/api/portraits/women/2.jpg"
-    },
-    {
-      "id": "46b6",
+      "id": "2da5",
       "fullName": "Rashad",
-      "email": "FarhadliRashad1@gmail.com",
+      "email": "Rashadfarhadli21@gmail.com",
       "password": "Rashadfarhadli21",
-      "profileImage": "https://img.freepik.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4841.jpg?semt=ais_hybrid&w=740"
-    },
-    {
-      "id": "ee1e",
-      "fullName": "Rashad",
-      "email": "ElsadFerhadov@gmail.com",
-      "password": "Rashadfarhadli21",
-      "profileImage": "https://img.freepik.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4841.jpg?semt=ais_hybrid&w=740"
-    },
-    {
-      "id": "84e1",
-      "fullName": "Rashad",
-      "email": "Aytacajoi@gmail.com",
-      "password": "Rashadfarhadli21",
-      "profileImage": "https://img.freepik.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4841.jpg?semt=ais_hybrid&w=740"
-    },
-    {
-      "id": "4e21",
-      "fullName": "Rashad",
-      "email": "Elsaderhadov@gmail.com",
-      "password": "Rashadfarhadli21",
-      "profileImage": "https://img.freepik.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4841.jpg?semt=ais_hybrid&w=740"
+      "profileImage": "https://static.vecteezy.com/system/resources/previews/024/183/525/non_2x/avatar-of-a-man-portrait-of-a-young-guy-illustration-of-male-character-in-modern-color-style-vector.jpg"
     }
   ],
   "orders": [
     {
-      "id": "4a57",
-      "userId": "1",
-      "items": [
-        {
-          "productId": "2",
-          "name": "Lay's Classic Chips",
-          "quantity": 6,
-          "price": 2.97,
-          "total": 17.82
-        }
-      ],
-      "totalPrice": 17.82,
-      "date": "2025-06-14T17:57:14.899Z"
-    },
-    {
-      "id": "d08d",
-      "userId": "1",
-      "items": [
-        {
-          "productId": "3",
-          "name": "Fresh Milk",
-          "quantity": 1,
-          "price": 4.99,
-          "total": 4.99
-        }
-      ],
-      "totalPrice": 4.99,
-      "date": "2025-06-14T17:57:26.743Z"
-    },
-    {
-      "id": "3e29",
-      "userId": "84e1",
-      "items": [
-        {
-          "productId": "3",
-          "name": "Fresh Milk",
-          "quantity": 1,
-          "price": 4.99,
-          "total": 4.99
-        }
-      ],
-      "totalPrice": 4.99,
-      "date": "2025-06-14T18:14:34.137Z"
-    },
-    {
-      "id": "cada",
-      "userId": "84e1",
-      "items": [
-        {
-          "productId": "1",
-          "name": "Coca Cola Classic",
-          "quantity": 13,
-          "price": 2.99,
-          "total": 38.870000000000005
-        },
-        {
-          "productId": "2",
-          "name": "Lay's Classic Chips",
-          "quantity": 30,
-          "price": 2.97,
-          "total": 89.10000000000001
-        },
-        {
-          "productId": "15",
-          "name": "Orbit Chewing Gum",
-          "quantity": 36,
-          "price": 0.99,
-          "total": 35.64
-        }
-      ],
-      "totalPrice": 163.61,
-      "date": "2025-06-14T20:37:07.847Z"
-    },
-    {
-      "id": "d7fd",
-      "userId": "84e1",
+      "id": "6575",
+      "userId": "2da5",
       "fullName": "Rashad",
-      "phone": "Yoxdur",
+      "phone": "Rashadfarhadli21@gmail.com",
       "items": [
         {
-          "productId": "2",
-          "name": "Lay's Classic Chips",
-          "quantity": 1,
-          "price": 2.97,
-          "total": 2.97
-        },
-        {
-          "productId": "1",
-          "name": "Coca Cola Classic",
-          "quantity": 1,
-          "price": 2.99,
-          "total": 2.99
-        },
-        {
-          "productId": "4",
-          "name": "Head & Shoulders Shampoo",
-          "quantity": 1,
-          "price": 7.19,
-          "total": 7.19
-        },
-        {
-          "productId": "8",
-          "name": "Nescafe Classic Coffee",
-          "quantity": 1,
-          "price": 3.99,
-          "total": 3.99
+          "productId": "18",
+          "name": "Nivea Body Lotion",
+          "quantity": 14,
+          "price": 6.75,
+          "total": 94.5
         }
       ],
-      "totalPrice": 17.14,
-      "date": "2025-06-14T20:41:46.201Z"
+      "totalPrice": 94.5,
+      "date": "2025-06-15T10:05:49.300Z"
     },
     {
-      "id": "e8b1",
-      "userId": "84e1",
+      "id": "fd56",
+      "userId": "2da5",
       "fullName": "Rashad",
-      "phone": "Aytacajoi@gmail.com",
+      "phone": "Rashadfarhadli21@gmail.com",
       "items": [
-        {
-          "productId": "2",
-          "name": "Lay's Classic Chips",
-          "quantity": 1,
-          "price": 2.97,
-          "total": 2.97
-        },
         {
           "productId": "1",
           "name": "Coca Cola Classic",
@@ -365,25 +222,8 @@
           "total": 2.99
         }
       ],
-      "totalPrice": 5.960000000000001,
-      "date": "2025-06-14T20:44:59.120Z"
-    },
-    {
-      "id": "e0c6",
-      "userId": "84e1",
-      "fullName": "Rashad",
-      "phone": "Aytacajoi@gmail.com",
-      "items": [
-        {
-          "productId": "3",
-          "name": "Fresh Milk",
-          "quantity": 13,
-          "price": 4.99,
-          "total": 64.87
-        }
-      ],
-      "totalPrice": 64.87,
-      "date": "2025-06-14T20:59:58.240Z"
+      "totalPrice": 2.99,
+      "date": "2025-06-15T10:08:35.842Z"
     }
   ],
   "contacts": [
@@ -407,6 +247,20 @@
       "email": "farhadlirashad@gmail.com",
       "subject": "Tehlukesizlik",
       "message": "menim melumatlarimi kimse goturmur?"
+    },
+    {
+      "id": "2c4c",
+      "fullName": "Rashad",
+      "email": "emilgasarayev@gmail.com",
+      "subject": "Texniki problem",
+      "message": "sayta daxil ola bilmirem \n"
+    },
+    {
+      "id": "0893",
+      "fullName": "Rashad",
+      "email": "Ulvialiyev@gmail.com",
+      "subject": "Texniki problem",
+      "message": "Sayta daxil ola bilmirem "
     }
   ]
 }
