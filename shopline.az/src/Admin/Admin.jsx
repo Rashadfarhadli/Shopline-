@@ -1,9 +1,11 @@
 import React from 'react'
+import AdminLogin from './AdminLogin'
+import AdminDashboard from './AdminDashboard'
 
 const Admin = () => {
   return (
     <div>
-      <h1>Admin</h1>
+      < AdminLogin />
     </div>
   )
 }

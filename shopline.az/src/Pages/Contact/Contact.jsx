@@ -3,7 +3,6 @@ import ContactHero from './ContactHero'
 import ContactSection from '../../components/ContactSection'
 import ContactSectionForm from './ContactSectionForm'
 import FindUsSection from './FindUsSection'
-import Footer from '../../components/Footer'
 
 const Contact = () => {
   return (

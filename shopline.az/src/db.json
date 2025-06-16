@@ -5,6 +5,16 @@
       "ProductName": "Coca Cola Classic",
       "composition": "carbonated drink",
       "Description": "Refreshing cola drink with the classic taste you love",
+      "Volume": "1L",
+      "Calories": 140,
+      "Ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Caramel Color",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 2.99,
       "ImageUrl": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.8,
@@ -15,6 +25,16 @@
       "ProductName": "Lay's Classic Chips",
       "composition": "fried potatoes",
       "Description": "Crispy potato chips with the perfect amount of salt",
+      "Volume": "140q",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 2.97,
       "ImageUrl": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.7,
@@ -25,6 +45,16 @@
       "ProductName": "Fresh Milk",
       "composition": "Milk",
       "Description": "Pure and fresh whole milk, perfect for your daily needs",
+      "Volume": "0.5L",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 4.99,
       "ImageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.9,
@@ -35,6 +65,16 @@
       "ProductName": "Head & Shoulders Shampoo",
       "composition": "Head & Shoulders",
       "Description": "Anti-dandruff shampoo for healthy, clean hair",
+      "Volume": "1L",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 7.19,
       "ImageUrl": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.6,
@@ -45,6 +85,16 @@
       "ProductName": "Dove Beauty Bar",
       "composition": "Dove",
       "Description": "Moisturizing beauty bar soap for soft, smooth skin",
+      "Volume": "1L",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 4.94,
       "ImageUrl": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.9,
@@ -55,6 +105,16 @@
       "ProductName": "Haribo Gummy Bears",
       "composition": "Haribo",
       "Description": "Delicious fruity gummy bears in assorted flavors",
+      "Volume": "100q",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 2.79,
       "ImageUrl": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "Rating": 4.9,
@@ -65,6 +125,16 @@
       "ProductName": "Nutella Hazelnut Spread",
       "composition": "hazelnuts, cocoa",
       "Description": "Delicious chocolate hazelnut spread perfect for toast and desserts",
+      "Volume": "300q",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 5.49,
       "ImageUrl": "https://i5.walmartimages.com/seo/Nutella-Hazelnut-Spread-with-Cocoa-for-Breakfast-26-5-oz-Jar_e79464bd-3e47-409f-8bf4-1f529babd340.0eed1c12497bf86b17add38ecf38a770.jpeg",
       "Rating": 4.8,
@@ -75,6 +145,16 @@
       "ProductName": "Nescafe Classic Coffee",
       "composition": "instant coffee",
       "Description": "Rich and aromatic instant coffee for your daily energy boost",
+      "Volume": "0.5l",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 3.99,
       "ImageUrl": "https://bazarstore.az/cdn/shop/files/f77c3884eb7e7d2aab1177fc123e5821.jpg?v=1730449535",
       "Rating": 4.6,
@@ -85,6 +165,16 @@
       "ProductName": "Kinder Chocolate",
       "composition": "milk chocolate",
       "Description": "Smooth milk chocolate bars with a creamy milk filling",
+      "Volume": "2l",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 3.45,
       "ImageUrl": "https://m.media-amazon.com/images/I/51db72CqxkL.jpg",
       "Rating": 4.9,
@@ -95,6 +185,16 @@
       "ProductName": "Snickers Bar",
       "composition": "chocolate, caramel, peanuts",
       "Description": "Chocolate bar packed with peanuts, caramel, and nougat",
+      "Volume": "140q",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 1.99,
       "ImageUrl": "https://www.stbarthswine.com/cdn/shop/products/SnickersChocolateCaramelPeanuts.jpg?v=1631203303",
       "Rating": 4.7,
@@ -105,6 +205,16 @@
       "ProductName": "Orange Juice",
       "composition": "100% orange juice",
       "Description": "Freshly squeezed orange juice, rich in Vitamin C",
+      "Volume": "1l",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 3.89,
       "ImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJWBxam3CQwwocWlkahzr9Vvyg2LtFcDW-Fw&s",
       "Rating": 4.8,
@@ -115,6 +225,16 @@
       "ProductName": "Pringles Original",
       "composition": "potato crisps",
       "Description": "Crispy and salty potato chips in iconic tube packaging",
+      "Volume": "140q",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 2.79,
       "ImageUrl": "https://strgimgr.umico.az/sized/840/540149-2740c9404c393dded4d7213b9ba7aa89.jpg",
       "Rating": 4.6,
@@ -125,6 +245,16 @@
       "ProductName": "Bananas",
       "composition": "fresh fruit",
       "Description": "Fresh and ripe bananas packed with potassium",
+      "Volume": "140q",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 1.5,
       "ImageUrl": "https://www.orchardfood.co.za/cdn/shop/files/Bananas-2.png?v=1697742987&width=1920",
       "Rating": 4.9,
@@ -135,6 +265,16 @@
       "ProductName": "Lipton Ice Tea",
       "composition": "black tea, lemon flavor",
       "Description": "Refreshing iced tea with a splash of lemon flavor",
+      "Volume": "1L",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 1.75,
       "ImageUrl": "https://neptun.az/image/cache/catalog/liptonlimon1l-1000x1000.jpeg?v=9",
       "Rating": 4.5,
@@ -145,6 +285,16 @@
       "ProductName": "Orbit Chewing Gum",
       "composition": "sugar-free gum",
       "Description": "Sugar-free chewing gum for fresh breath",
+      "Volume": "10q",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 0.99,
       "ImageUrl": "https://confitelia.com/2043-thickbox_default/chewing-gum-orbit-dagree-peppermint-sugarfree.jpg",
       "Rating": 4.4,
@@ -165,6 +315,16 @@
       "ProductName": "Dettol Hand Sanitizer",
       "composition": "alcohol-based sanitizer",
       "Description": "Kills 99.9% of germs and bacteria without water",
+      "Volume": "1L",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 2.49,
       "ImageUrl": "https://m.media-amazon.com/images/I/51-z05TsJSL.jpg",
       "Rating": 4.8,
@@ -175,6 +335,16 @@
       "ProductName": "Nivea Body Lotion",
       "composition": "moisturizing cream",
       "Description": "Deep moisturizing lotion for smooth and soft skin",
+      "Volume": "1L",
+      "Calories": 140,
+      "Ingredients": [
+        "Potatoes",
+        "Vegetable Oil ",
+        "Sunflower",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
       "Price": 6.75,
       "ImageUrl": "https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//n/i/nivea-aloe-vera-body-lotion-625ml.jpg",
       "Rating": 4.9,
@@ -202,32 +372,141 @@
       "email": "Rashadfarh@gmail.com",
       "password": "Rashadfarhadli21",
       "profileImage": ""
+    },
+    {
+      "id": "8465",
+      "fullName": "Emil",
+      "email": "Emilgasarayev@gmail.com",
+      "password": "Rashadfarhadli21",
+      "profileImage": "https://media.licdn.com/dms/image/v2/D4E03AQEeREd08SUcLg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724344950949?e=2147483647&v=beta&t=ySF13Lm4--QoEKqiryYEnG5Src00Y1Avv-sPsT-MM7Y"
     }
   ],
   "orders": [
     {
-      "id": "6575",
-      "userId": "2da5",
-      "fullName": "Rashad",
-      "phone": "Rashadfarhadli21@gmail.com",
+      "id": "2d03",
+      "userId": "8465",
+      "fullName": "Emil",
+      "phone": "Emilgasarayev@gmail.com",
       "items": [
         {
           "productId": "18",
           "name": "Nivea Body Lotion",
-          "quantity": 14,
+          "quantity": 1,
           "price": 6.75,
-          "total": 94.5
-        }
-      ],
-      "totalPrice": 94.5,
-      "date": "2025-06-15T10:05:49.300Z"
-    },
-    {
-      "id": "fd56",
-      "userId": "2da5",
-      "fullName": "Rashad",
-      "phone": "Rashadfarhadli21@gmail.com",
-      "items": [
+          "total": 6.75
+        },
+        {
+          "productId": "17",
+          "name": "Dettol Hand Sanitizer",
+          "quantity": 1,
+          "price": 2.49,
+          "total": 2.49
+        },
+        {
+          "productId": "13",
+          "name": "Bananas",
+          "quantity": 1,
+          "price": 1.5,
+          "total": 1.5
+        },
+        {
+          "productId": "14",
+          "name": "Lipton Ice Tea",
+          "quantity": 1,
+          "price": 1.75,
+          "total": 1.75
+        },
+        {
+          "productId": "15",
+          "name": "Orbit Chewing Gum",
+          "quantity": 1,
+          "price": 0.99,
+          "total": 0.99
+        },
+        {
+          "productId": "16",
+          "name": "Apple iPhone Charger",
+          "quantity": 1,
+          "price": 19.99,
+          "total": 19.99
+        },
+        {
+          "productId": "12",
+          "name": "Pringles Original",
+          "quantity": 1,
+          "price": 2.79,
+          "total": 2.79
+        },
+        {
+          "productId": "11",
+          "name": "Orange Juice",
+          "quantity": 1,
+          "price": 3.89,
+          "total": 3.89
+        },
+        {
+          "productId": "10",
+          "name": "Snickers Bar",
+          "quantity": 1,
+          "price": 1.99,
+          "total": 1.99
+        },
+        {
+          "productId": "9",
+          "name": "Kinder Chocolate",
+          "quantity": 1,
+          "price": 3.45,
+          "total": 3.45
+        },
+        {
+          "productId": "5",
+          "name": "Dove Beauty Bar",
+          "quantity": 34,
+          "price": 4.94,
+          "total": 167.96
+        },
+        {
+          "productId": "6",
+          "name": "Haribo Gummy Bears",
+          "quantity": 1,
+          "price": 2.79,
+          "total": 2.79
+        },
+        {
+          "productId": "7",
+          "name": "Nutella Hazelnut Spread",
+          "quantity": 1,
+          "price": 5.49,
+          "total": 5.49
+        },
+        {
+          "productId": "8",
+          "name": "Nescafe Classic Coffee",
+          "quantity": 1,
+          "price": 3.99,
+          "total": 3.99
+        },
+        {
+          "productId": "4",
+          "name": "Head & Shoulders Shampoo",
+          "quantity": 1,
+          "price": 7.19,
+          "total": 7.19
+        },
+        {
+          "productId": "3",
+          "name": "Fresh Milk",
+          "quantity": 1,
+          "price": 4.99,
+          "total": 4.99
+        },
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 1,
+          "price": 2.97,
+          "total": 2.97
+        },
         {
           "productId": "1",
           "name": "Coca Cola Classic",
@@ -236,8 +515,8 @@
           "total": 2.99
         }
       ],
-      "totalPrice": 2.99,
-      "date": "2025-06-15T10:08:35.842Z"
+      "totalPrice": 243.96000000000004,
+      "date": "2025-06-16T13:02:51.744Z"
     }
   ],
   "contacts": [
@@ -249,32 +528,27 @@
       "message": "Salam, məhsul haqqında məlumat almaq istəyirəm."
     },
     {
-      "id": "2",
-      "fullName": "Aysel Karimova",
-      "email": "aysel@example.com",
+      "id": "70a2",
+      "fullName": "Rashad",
+      "email": "ElsadFerhadov@gmail.com",
       "subject": "Texniki problem",
-      "message": "Saytda səbət işləmədiyi üçün sifarişi tamamlaya bilmirəm."
+      "message": "gtft77"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin01",
+      "fullName": "Admin Rashad",
+      "email": "admin@shopline.az",
+      "password": "admin123",
+      "profileImage": "https://cdn-icons-png.flaticon.com/512/1053/1053244.png"
     },
     {
-      "id": "5ca1",
-      "fullName": "Rashad",
-      "email": "farhadlirashad@gmail.com",
-      "subject": "Tehlukesizlik",
-      "message": "menim melumatlarimi kimse goturmur?"
-    },
-    {
-      "id": "2c4c",
-      "fullName": "Rashad",
-      "email": "emilgasarayev@gmail.com",
-      "subject": "Texniki problem",
-      "message": "sayta daxil ola bilmirem \n"
-    },
-    {
-      "id": "0893",
-      "fullName": "Rashad",
-      "email": "Ulvialiyev@gmail.com",
-      "subject": "Texniki problem",
-      "message": "Sayta daxil ola bilmirem "
+      "id": "admin02",
+      "fullName": "Super Admin",
+      "email": "superadmin@shopline.az",
+      "password": "superadmin123",
+      "profileImage": "https://cdn-icons-png.flaticon.com/512/149/149071.png"
     }
   ]
 }

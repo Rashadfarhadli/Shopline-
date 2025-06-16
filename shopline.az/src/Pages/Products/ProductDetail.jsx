@@ -17,13 +17,8 @@ function ProductDetail() {
         return res.json();
       })
       .then((data) => {
-       
-        console.log("Məhsul məlumatı:", data);
-
         setProduct(data);
         setCount(1);
-
-      
         const stockValue = data.stock ?? data.Stock ?? 0;
         localStorage.setItem("productStock", String(stockValue));
       })
@@ -31,21 +26,12 @@ function ProductDetail() {
   }, [id]);
 
   if (error) {
-    return (
-      <div className="text-center py-20 text-red-600 text-xl">
-        Xəta: {error}
-      </div>
-    );
+    return <div className="text-center py-20 text-red-600 text-xl">Xəta: {error}</div>;
   }
 
   if (!product) {
-    return (
-      <div className="text-center py-20 text-gray-600 text-xl">
-        Məhsul yüklənir...
-      </div>
-    );
+    return <div className="text-center py-20 text-gray-600 text-xl">Məhsul yüklənir...</div>;
   }
-
 
   const maxCount = product.stock ?? product.Stock ?? 0;
   const minCount = 1;
@@ -93,7 +79,7 @@ function ProductDetail() {
         return;
       }
       basket[productIndex].count = newCount;
-      basket[productIndex].stock = maxCount; 
+      basket[productIndex].stock = maxCount;
     } else {
       basket.push({
         id: product.id,
@@ -133,7 +119,6 @@ function ProductDetail() {
                     ? "bg-gray-300 cursor-not-allowed"
                     : "bg-red-500 text-white hover:bg-red-600"
                 }`}
-                aria-label="Azalt"
               >
                 -
               </button>
@@ -146,7 +131,6 @@ function ProductDetail() {
                     ? "bg-gray-300 cursor-not-allowed"
                     : "bg-green-500 text-white hover:bg-green-600"
                 }`}
-                aria-label="Artır"
               >
                 +
               </button>
@@ -179,7 +163,15 @@ function ProductDetail() {
             <li><strong>Name:</strong> {product.ProductName}</li>
             <li><strong>Stock:</strong> {maxCount} ədəd</li>
             <li><strong>Category:</strong> {product.composition || "N/A"}</li>
-            <li><strong>Rating:</strong> {product.Rating} / 5</li>
+            <li><strong>Rating:</strong> {product.Rating ?? "N/A"} / 5</li>
+            <li><strong>Volume:</strong> {product.Volume || "N/A"}</li>
+            <li><strong>Calories:</strong> {product.Calories ?? "N/A"} kcal</li>
+            <li>
+              <strong>Ingredients:</strong>{" "}
+              {Array.isArray(product.Ingredients)
+                ? product.Ingredients.join(", ")
+                : "N/A"}
+            </li>
           </ul>
         </div>
       </div>
