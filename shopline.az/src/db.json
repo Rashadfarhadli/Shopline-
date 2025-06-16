@@ -349,6 +349,22 @@
       "ImageUrl": "https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//n/i/nivea-aloe-vera-body-lotion-625ml.jpg",
       "Rating": 4.9,
       "stock": 33
+    },
+    {
+      "id": "381f",
+      "ProductName": "Lays Paprika 1401",
+      "Description": "Paprika ",
+      "Volume": "140q",
+      "Calories": 672,
+      "Ingredients": [
+        "Kartof",
+        "Bitki yağı (sın: günəbaxan yağı",
+        "qarğıdalı yağı və ya palma yağı)"
+      ],
+      "Price": 2.77,
+      "Rating": 4.5,
+      "stock": 19,
+      "ImageUrl": "https://bazarstore.az/cdn/shop/products/30116011_ab6c4ec1-23a3-4072-8174-5a037e2f32f8.jpg?v=1693570838"
     }
   ],
   "users": [
@@ -379,6 +395,20 @@
       "email": "Emilgasarayev@gmail.com",
       "password": "Rashadfarhadli21",
       "profileImage": "https://media.licdn.com/dms/image/v2/D4E03AQEeREd08SUcLg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724344950949?e=2147483647&v=beta&t=ySF13Lm4--QoEKqiryYEnG5Src00Y1Avv-sPsT-MM7Y"
+    },
+    {
+      "id": "8548",
+      "fullName": "Emil",
+      "email": "EmilYusifov@gmail.com",
+      "password": "Rashadfarhadli21",
+      "profileImage": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png"
+    },
+    {
+      "id": "32db",
+      "fullName": "Zarina",
+      "email": "ZarinaSalimova@gmail.com",
+      "password": "Rashadfarhadli21",
+      "profileImage": "https://www.shutterstock.com/image-vector/black-woman-smiling-portrait-vector-600nw-2281497689.jpg"
     }
   ],
   "orders": [
@@ -517,6 +547,289 @@
       ],
       "totalPrice": 243.96000000000004,
       "date": "2025-06-16T13:02:51.744Z"
+    },
+    {
+      "id": "0aeb",
+      "userId": "8548",
+      "fullName": "Emil",
+      "phone": "EmilYusifov@gmail.com",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 30,
+          "price": 2.97,
+          "total": 89.10000000000001
+        }
+      ],
+      "totalPrice": 89.10000000000001,
+      "date": "2025-06-16T18:40:27.585Z"
+    },
+    {
+      "id": "05ac",
+      "userId": "8548",
+      "fullName": "Emil",
+      "phone": "EmilYusifov@gmail.com",
+      "items": [
+        {
+          "productId": "18",
+          "name": "Nivea Body Lotion",
+          "quantity": 23,
+          "price": 6.75,
+          "total": 155.25
+        },
+        {
+          "productId": "17",
+          "name": "Dettol Hand Sanitizer",
+          "quantity": 25,
+          "price": 2.49,
+          "total": 62.25000000000001
+        },
+        {
+          "productId": "13",
+          "name": "Bananas",
+          "quantity": 30,
+          "price": 1.5,
+          "total": 45
+        },
+        {
+          "productId": "14",
+          "name": "Lipton Ice Tea",
+          "quantity": 23,
+          "price": 1.75,
+          "total": 40.25
+        },
+        {
+          "productId": "15",
+          "name": "Orbit Chewing Gum",
+          "quantity": 25,
+          "price": 0.99,
+          "total": 24.75
+        },
+        {
+          "productId": "16",
+          "name": "Apple iPhone Charger",
+          "quantity": 22,
+          "price": 19.99,
+          "total": 439.78
+        },
+        {
+          "productId": "12",
+          "name": "Pringles Original",
+          "quantity": 22,
+          "price": 2.79,
+          "total": 61.38
+        }
+      ],
+      "totalPrice": 828.66,
+      "date": "2025-06-16T18:41:33.887Z"
+    },
+    {
+      "id": "d71d",
+      "userId": "8548",
+      "fullName": "Emil",
+      "phone": "EmilYusifov@gmail.com",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 6,
+          "price": 2.97,
+          "total": 17.82
+        },
+        {
+          "productId": "3",
+          "name": "Fresh Milk",
+          "quantity": 10,
+          "price": 4.99,
+          "total": 49.900000000000006
+        },
+        {
+          "productId": "4",
+          "name": "Head & Shoulders Shampoo",
+          "quantity": 4,
+          "price": 7.19,
+          "total": 28.76
+        },
+        {
+          "productId": "7",
+          "name": "Nutella Hazelnut Spread",
+          "quantity": 8,
+          "price": 5.49,
+          "total": 43.92
+        },
+        {
+          "productId": "6",
+          "name": "Haribo Gummy Bears",
+          "quantity": 6,
+          "price": 2.79,
+          "total": 16.740000000000002
+        },
+        {
+          "productId": "5",
+          "name": "Dove Beauty Bar",
+          "quantity": 14,
+          "price": 4.94,
+          "total": 69.16000000000001
+        },
+        {
+          "productId": "8",
+          "name": "Nescafe Classic Coffee",
+          "quantity": 10,
+          "price": 3.99,
+          "total": 39.900000000000006
+        },
+        {
+          "productId": "12",
+          "name": "Pringles Original",
+          "quantity": 9,
+          "price": 2.79,
+          "total": 25.11
+        },
+        {
+          "productId": "11",
+          "name": "Orange Juice",
+          "quantity": 3,
+          "price": 3.89,
+          "total": 11.67
+        },
+        {
+          "productId": "10",
+          "name": "Snickers Bar",
+          "quantity": 5,
+          "price": 1.99,
+          "total": 9.95
+        },
+        {
+          "productId": "9",
+          "name": "Kinder Chocolate",
+          "quantity": 7,
+          "price": 3.45,
+          "total": 24.150000000000002
+        }
+      ],
+      "totalPrice": 337.08000000000004,
+      "date": "2025-06-16T18:46:19.650Z"
+    },
+    {
+      "id": "84fc",
+      "userId": "8548",
+      "fullName": "Emil",
+      "phone": "EmilYusifov@gmail.com",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 12,
+          "price": 2.97,
+          "total": 35.64
+        },
+        {
+          "productId": "1",
+          "name": "Coca Cola Classic",
+          "quantity": 5,
+          "price": 2.99,
+          "total": 14.950000000000001
+        },
+        {
+          "productId": "5",
+          "name": "Dove Beauty Bar",
+          "quantity": 35,
+          "price": 4.94,
+          "total": 172.9
+        },
+        {
+          "productId": "10",
+          "name": "Snickers Bar",
+          "quantity": 16,
+          "price": 1.99,
+          "total": 31.84
+        }
+      ],
+      "totalPrice": 255.33,
+      "date": "2025-06-16T19:13:01.654Z"
+    },
+    {
+      "id": "d433",
+      "userId": "8548",
+      "fullName": "Emil",
+      "phone": "EmilYusifov@gmail.com",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 30,
+          "price": 2.97,
+          "total": 89.10000000000001
+        }
+      ],
+      "totalPrice": 89.10000000000001,
+      "date": "2025-06-16T19:14:14.866Z"
+    },
+    {
+      "id": "66dd",
+      "userId": "32db",
+      "fullName": "Zarina",
+      "phone": "ZarinaSalimova@gmail.com",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Lay's Classic Chips",
+          "quantity": 30,
+          "price": 2.97,
+          "total": 89.10000000000001
+        }
+      ],
+      "totalPrice": 89.10000000000001,
+      "date": "2025-06-16T19:16:11.649Z"
+    },
+    {
+      "id": "215b",
+      "userId": "32db",
+      "fullName": "Zarina",
+      "phone": "ZarinaSalimova@gmail.com",
+      "items": [
+        {
+          "productId": "17",
+          "name": "Dettol Hand Sanitizer",
+          "quantity": 65,
+          "price": 2.49,
+          "total": 161.85000000000002
+        }
+      ],
+      "totalPrice": 161.85000000000002,
+      "date": "2025-06-16T19:39:48.506Z"
+    },
+    {
+      "id": "5aaa",
+      "userId": "32db",
+      "fullName": "Zarina",
+      "phone": "ZarinaSalimova@gmail.com",
+      "items": [
+        {
+          "productId": "18",
+          "name": "Nivea Body Lotion",
+          "quantity": 33,
+          "price": 6.75,
+          "total": 222.75
+        },
+        {
+          "productId": "16",
+          "name": "Apple iPhone Charger",
+          "quantity": 22,
+          "price": 19.99,
+          "total": 439.78
+        },
+        {
+          "productId": "15",
+          "name": "Orbit Chewing Gum",
+          "quantity": 120,
+          "price": 0.99,
+          "total": 118.8
+        }
+      ],
+      "totalPrice": 781.3299999999999,
+      "date": "2025-06-16T19:40:37.212Z"
     }
   ],
   "contacts": [

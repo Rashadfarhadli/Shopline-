@@ -5,6 +5,8 @@ import {
   FaCheckCircle,
   FaHeadphonesAlt,
 } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const services = [
   {
@@ -33,23 +35,23 @@ export default function OurServices() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-
     try {
       const storedUser = localStorage.getItem("user");
       if (!storedUser) {
-        alert("İstifadəçi məlumatı tapılmadı. Zəhmət olmasa daxil olun.");
+        toast.error("İstifadəçi məlumatı tapılmadı. Zəhmət olmasa daxil olun.");
         return;
       }
+
       const parsedUser = JSON.parse(storedUser);
       if (!parsedUser || Object.keys(parsedUser).length === 0) {
-        alert("İstifadəçi məlumatı düzgün deyil. Zəhmət olmasa yenidən daxil olun.");
+        toast.error("İstifadəçi məlumatı düzgün deyil. Zəhmət olmasa yenidən daxil olun.");
         return;
       }
+
       setUser(parsedUser);
     } catch (error) {
-      alert("İstifadəçi məlumatı yüklənərkən xəta baş verdi.");
+      toast.error("İstifadəçi məlumatı yüklənərkən xəta baş verdi.");
     }
-
 
     var Tawk_API = window.Tawk_API || {};
     var Tawk_LoadStart = new Date();
@@ -60,18 +62,22 @@ export default function OurServices() {
     script.setAttribute("crossorigin", "*");
     document.head.appendChild(script);
 
-   
     return () => {
       document.head.removeChild(script);
     };
   }, []);
 
   if (!user) {
-    return null;
+    return (
+      <>
+        <ToastContainer position="top-right" autoClose={3000} />
+      </>
+    );
   }
 
   return (
     <section className="py-16 bg-white px-4">
+      <ToastContainer position="top-right" autoClose={3000} />
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">
           Our Services
@@ -100,4 +106,4 @@ export default function OurServices() {
       </div>
     </section>
   );
-}   
+}
