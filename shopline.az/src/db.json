@@ -383,13 +383,6 @@
       "profileImage": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png"
     },
     {
-      "id": "1a2a",
-      "fullName": "adile",
-      "email": "Rashadfarh@gmail.com",
-      "password": "Rashadfarhadli21",
-      "profileImage": ""
-    },
-    {
       "id": "8465",
       "fullName": "Emil",
       "email": "Emilgasarayev@gmail.com",
@@ -416,7 +409,7 @@
       "id": "2d03",
       "userId": "8465",
       "fullName": "Emil",
-      "phone": "Emilgasarayev@gmail.com",
+      "email": "Emilgasarayev@gmail.com",
       "items": [
         {
           "productId": "18",

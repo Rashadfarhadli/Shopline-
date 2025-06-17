@@ -34,8 +34,72 @@ const pages = {
   contact: "Contact bölməsi",
 };
 
-function UsersTable() {
 
+function OrdersTable() {
+  const [orders, setOrders] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("http://localhost:5005/orders")
+      .then((res) => res.json())
+      .then((data) => {
+        setOrders(data);
+        setLoading(false);
+        toast.success("Sifarişlər uğurla yükləndi");
+      })
+      .catch((err) => {
+        console.error("Sifarişləri gətirərkən xəta:", err);
+        toast.error("Sifarişlər yüklənərkən xəta baş verdi");
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Yüklənir...</p>;
+  if (orders.length === 0) return <p>Sifariş tapılmadı.</p>;
+
+  return (
+    <div className="overflow-x-auto">
+      <table className="min-w-full bg-white dark:bg-gray-800 rounded-xl shadow-md">
+        <thead>
+          <tr className="bg-gray-100 dark:bg-gray-700 text-left text-sm uppercase text-gray-600 dark:text-gray-300">
+            <th className="px-4 py-3">Ad Soyad</th>
+            <th className="px-4 py-3">Email</th>
+            <th className="px-4 py-3">Məhsullar</th>
+            <th className="px-4 py-3">Ümumi Qiymət</th>
+          </tr>
+        </thead>
+        <tbody>
+          {orders.map((order) => {
+            const totalPrice = order.items.reduce((sum, item) => sum + item.total, 0);
+            return (
+              <tr key={order.id} className="border-t border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+                <td className="px-4 py-3 font-medium">{order.fullName}</td>
+                <td className="px-4 py-3">{order.email}</td>
+                <td className="px-4 py-3">
+                  <ul className="space-y-1 text-sm">
+                    {order.items.map((item, idx) => (
+                      <li key={idx}>
+                        {item.name} × {item.quantity} →{" "}
+                        <span className="text-green-600 dark:text-green-400 font-medium">
+                          ${item.total.toFixed(2)}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </td>
+                <td className="px-4 py-3 font-semibold text-blue-600 dark:text-blue-400">
+                  ${totalPrice.toFixed(2)}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function UsersTable() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
@@ -139,7 +203,6 @@ function UsersTable() {
 export default function AdminDashboard() {
   const [activePage, setActivePage] = useState("home");
 
-
   const [barData, setBarData] = useState([]);
   const [pieData, setPieData] = useState([]);
   const [loadingCharts, setLoadingCharts] = useState(true);
@@ -150,7 +213,6 @@ export default function AdminDashboard() {
       fetch("http://localhost:5005/orders")
         .then((res) => res.json())
         .then((orders) => {
-     
           const productCounts = {};
           orders.forEach((order) => {
             order.items.forEach((item) => {
@@ -158,13 +220,11 @@ export default function AdminDashboard() {
             });
           });
 
-         
           const barChartData = Object.entries(productCounts).map(([name, quantity]) => ({
             name,
             quantity,
           }));
 
-       
           const pieChartData = Object.entries(productCounts)
             .sort((a, b) => b[1] - a[1])
             .slice(0, 5)
@@ -231,7 +291,6 @@ export default function AdminDashboard() {
                 <p>Statistikalar yüklənir...</p>
               ) : (
                 <div className="space-y-10">
-              
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md max-w-full">
                     <h4 className="text-md font-semibold mb-3 text-gray-900 dark:text-white">
                       Məhsulların Ümumi Satış Miqdarı
@@ -265,7 +324,6 @@ export default function AdminDashboard() {
                     </ResponsiveContainer>
                   </div>
 
-          
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md max-w-full">
                     <h4 className="text-md font-semibold mb-3 text-gray-900 dark:text-white">
                       Ən Populyar Top 5 Məhsul
@@ -312,9 +370,16 @@ export default function AdminDashboard() {
             </div>
           )}
 
-          {(activePage === "orders" || activePage === "contact") && (
+          {activePage === "orders" && (
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-md">
-              <h3 className="text-lg font-semibold mb-2">{pages[activePage]}</h3>
+              <h3 className="text-lg font-semibold mb-4">{pages.orders}</h3>
+              <OrdersTable />
+            </div>
+          )}
+
+          {activePage === "contact" && (
+            <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-md">
+              <h3 className="text-lg font-semibold mb-2">{pages.contact}</h3>
               <p className="text-gray-600 dark:text-gray-300">
                 {activePage} ilə bağlı əsas məlumatlar burada olacaq...
               </p>
