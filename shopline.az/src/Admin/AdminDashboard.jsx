@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"; 
-import ProductsTable from "./ProductsTable";  
+import ProductsTable from "./ProductsTable"; 
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -34,6 +34,31 @@ const pages = {
   contact: "Contact bölməsi",
 };
 
+
+function ConfirmModal({ isOpen, onConfirm, onCancel, message }) {
+  if (!isOpen) return null;
+  return (
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+      <div className="bg-white dark:bg-gray-800 rounded-lg p-6 max-w-sm w-full shadow-lg">
+        <h3 className="text-lg font-semibold mb-4 dark:text-white">{message}</h3>
+        <div className="flex justify-end gap-4">
+          <button
+            onClick={onCancel}
+            className="px-4 py-2 bg-gray-300 dark:bg-gray-600 dark:text-white rounded hover:bg-gray-400 transition"
+          >
+            İmtina
+          </button>
+          <button
+            onClick={onConfirm}
+            className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition"
+          >
+            Sil
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function OrdersTable() {
   const [orders, setOrders] = useState([]);
@@ -103,6 +128,8 @@ function UsersTable() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
+  const [confirmOpen, setConfirmOpen] = useState(false);
+  const [deleteId, setDeleteId] = useState(null);
 
   useEffect(() => {
     fetch("http://localhost:5005/users")
@@ -123,20 +150,34 @@ function UsersTable() {
       });
   }, []);
 
-  const handleDelete = (id) => {
-    if (!window.confirm("İstifadəçini silmək istədiyinizə əminsiniz?")) return;
+ 
+  const handleDeleteClick = (id) => {
+    setDeleteId(id);
+    setConfirmOpen(true);
+  };
 
-    fetch(`http://localhost:5005/users/${id}`, {
+  
+  const handleConfirmDelete = () => {
+    fetch(`http://localhost:5005/users/${deleteId}`, {
       method: "DELETE",
     })
       .then(() => {
-        setUsers((prev) => prev.filter((user) => user.id !== id));
+        setUsers((prev) => prev.filter((user) => user.id !== deleteId));
         toast.success("İstifadəçi uğurla silindi");
       })
       .catch((err) => {
         console.error("Silinərkən xəta:", err);
         toast.error("İstifadəçi silinərkən xəta baş verdi");
+      })
+      .finally(() => {
+        setConfirmOpen(false);
+        setDeleteId(null);
       });
+  };
+
+  const handleCancelDelete = () => {
+    setConfirmOpen(false);
+    setDeleteId(null);
   };
 
   const filteredUsers = users.filter((user) => {
@@ -185,7 +226,7 @@ function UsersTable() {
                 <td className="px-4 py-2 font-mono">{user.fakePassword}</td>
                 <td className="px-4 py-2">
                   <button
-                    onClick={() => handleDelete(user.id)}
+                    onClick={() => handleDeleteClick(user.id)}
                     className="px-3 py-1 bg-red-500 hover:bg-red-600 text-white rounded-lg text-xs"
                   >
                     Sil
@@ -196,6 +237,13 @@ function UsersTable() {
           </tbody>
         </table>
       </div>
+
+      <ConfirmModal
+        isOpen={confirmOpen}
+        onConfirm={handleConfirmDelete}
+        onCancel={handleCancelDelete}
+        message="İstifadəçini silmək istədiyinizə əminsiniz?"
+      />
     </div>
   );
 }

@@ -8,7 +8,7 @@ function ProfileAbout() {
     email: "",
     password: "",
     profileImage: "",
-    phone: "",
+   
   });
 
   const [basket, setBasket] = useState([]);
@@ -119,7 +119,7 @@ function ProfileAbout() {
     const orderData = {
       userId,
       fullName: user.fullName,
-      phone: user.email || "Yoxdur",
+      email: user.email || "Yoxdur",
       items: basket.map((item) => ({
         productId: item.id,
         name: item.name,
