@@ -85,8 +85,8 @@ export default function OurServices() {
         <p className="text-gray-600 max-w-xl mx-auto">
           Comprehensive solutions for all your shopping needs.
         </p>
-        <p className="mt-6 text-green-600 font-semibold">
-          Xoş gəlmisiniz, {user.fullName || "İstifadəçi"}!
+        <p className="mt-6 text-yellow-600 font-semibold text-3xl">
+          Xoş gəlmisən, {user.fullName || "İstifadəçi"}!
         </p>
       </div>
 
