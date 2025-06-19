@@ -3,8 +3,8 @@ import { FaStar } from "react-icons/fa";
 
 const reviews = [
   {
-    name: "Sarah Johnson",
-    image: "https://physicaleducationandwellness.mit.edu/wp-content/uploads/Untitled-1.png",
+    name: "Həzrət-102",
+    image: "https://tawk.link/684f356639b70919105f02d0/a/684f34c24542a91aebdd61b5/31b83c0d55ca155a758330e2b12e66fc2dc732df/677e920a-9a58-4631-a423-c36eff3d1f81.jpeg",
     review:
       "Shopline has made my grocery shopping so much easier. Fast delivery and great quality products!",
     rating: 5,
